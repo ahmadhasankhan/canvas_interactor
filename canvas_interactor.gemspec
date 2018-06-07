@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = CanvasInteractor::VERSION
   s.authors     = ["Ahmad Hassan"]
   s.email       = ["er.ahmad.hassan@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/ahmadhasankhan/canvas_interactor"
   s.summary     = "Canvas Interactor is a mountable engine for handling the oauth workflow with canvas and making api calls from your rails app."
   s.description = "Canvas Interactor is a mountable engine for handling the oauth workflow with canvas and making api calls from your rails app."
   s.license     = "MIT"

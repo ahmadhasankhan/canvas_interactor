@@ -1,3 +1,3 @@
 module CanvasInteractor
-  VERSION = '1.0.0'
+  Config = OpenStruct.new
 end

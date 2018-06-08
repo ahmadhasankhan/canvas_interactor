@@ -15,8 +15,19 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.test_files = Dir["spec/**/*"]
+  s.add_dependency 'rails', '>= 4.0', '< 6.0'
+  s.add_dependency 'httparty', '>= 0.9.0'
+  s.add_dependency 'link_header', '0.0.6'
 
-  s.add_dependency "rails", "~> 5.2.0"
-
-  s.add_development_dependency "pg"
+  s.add_development_dependency 'pg'
+  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rspec-its'
+  s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'rspec-rails-mocha'
+  s.add_development_dependency 'shoulda-matchers'
+  s.add_development_dependency 'webmock'
+  s.add_development_dependency 'guard-rspec'
+  s.add_development_dependency 'rb-fsevent'
 end

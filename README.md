@@ -21,6 +21,15 @@ Or install it yourself as:
 $ gem install canvas_interactor
 ```
 
+1.To copy these migrations into the application run the following command
+
+`$ bin/rails canvas_interactor:install:migrations`
+
+2.If you would like to run migrations only from one engine, you can do it by specifying SCOPE:
+
+`bin/rails db:migrate SCOPE=canvas_interactor`
+
+
 ## Contributing
 Contribution directions go here.
 
